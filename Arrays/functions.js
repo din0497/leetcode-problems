@@ -22,4 +22,15 @@
 // }
 
 
+function getMeatCost (meat) {
+    return meat
+}
+
+function getCarrotCost (carrot){
+    return carrot
+}
+
+function plovPrice () {
+    return getMeatCost(65000) + getCarrotCost(1500)
+}
 
