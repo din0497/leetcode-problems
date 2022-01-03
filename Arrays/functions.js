@@ -22,15 +22,25 @@
 // }
 
 
-function getMeatCost (meat) {
-    return meat
+// function getMeatCost (meat) {
+//     return meat
+// }
+
+// function getCarrotCost (carrot){
+//     return carrot
+// }
+
+// function plovPrice () {
+//     return getMeatCost(65000) + getCarrotCost(1500)
+// }
+
+function getUserInfo (name, surename, age) {
+  let year = 2022 - age; 
+
+  let userInfo = `${name} ${surename}, ${year}da tugulgan va hozir u ${age} yoshda`
+
+  return userInfo
+
 }
 
-function getCarrotCost (carrot){
-    return carrot
-}
-
-function plovPrice () {
-    return getMeatCost(65000) + getCarrotCost(1500)
-}
-
+getUserInfo('Vasila', 'Makhmudkhujaeva', 18)
